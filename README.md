@@ -21,7 +21,7 @@
 
 Playful and Colorful One-Page portfolio featuring Parallax effects and animations. Using the Gatsby Theme [`@lekoarts/gatsby-theme-cara`](https://github.com/LekoArts/gatsby-themes/tree/main/themes/gatsby-theme-cara).
 
-[**Demo Website**](https://estevam.gatsbyjs.io/)
+[![Live Preview](https://img.lekoarts.de/gatsby/preview.svg)](https://estevam.gatsbyjs.io/)
 
 <!-- Also be sure to check out other [Free & Open Source Gatsby Themes](https://themes.lekoarts.de) and my [Personal Website](https://www.lekoarts.de?utm_source=cara&utm_medium=Starter). -->
 
@@ -36,8 +36,8 @@ Playful and Colorful One-Page portfolio featuring Parallax effects and animation
 Use `git` to clone the site and navigate into it:
 
 ```sh
-git clone https://github.com/LekoArts/gatsby-starter-portfolio-cara project-name
-cd project-name
+git clone https://github.com/Estevamsl/gatsby-portfolio
+cd gatsby-portfolio
 ```
 
 ### 2. **Install dependencies.**
@@ -55,6 +55,60 @@ Start the site by running `npm run develop`.
 Your site is now running at `http://localhost:8000`!
 
 If you want to learn more about how you can use a Gatsby starter that is configured with a Gatsby theme, you can check out this [shorter](https://www.gatsbyjs.com/docs/how-to/plugins-and-themes/using-a-gatsby-theme/) or [longer](https://www.gatsbyjs.com/tutorial/using-a-theme/) tutorial. The tutorials don't exactly apply to this starter however the concepts are the same.
+
+## Usage
+
+### Theme options
+
+| Key        | Default Value | Description                                                                                             |
+| ---------- | ------------- | ------------------------------------------------------------------------------------------------------- |
+| `basePath` | `/`           | Root url for the theme                                                                                  |
+| `mdx`      | `true`        | Configure `gatsby-plugin-mdx` (if your website already is using the plugin pass false to turn this off) |
+
+#### Example usage
+
+```js
+// gatsby-config.js
+module.exports = {
+  plugins: [
+    {
+      resolve: `@lekoarts/gatsby-theme-cara`,
+      options: {
+        // basePath defaults to `/`
+        basePath: `/sideproject`,
+      },
+    },
+  ],
+};
+```
+
+#### Additional configuration
+
+In addition to the theme options, there are a handful of items you can customize via the `siteMetadata` object in your site's `gatsby-config.js`
+
+```js
+// gatsby-config.js
+module.exports = {
+  siteMetadata: {
+    // Used for the title template on pages other than the index site
+    siteTitle: `Cara`,
+    // Default title of the page
+    siteTitleAlt: `Cara - @lekoarts/gatsby-theme-cara`,
+    // Can be used for e.g. JSONLD
+    siteHeadline: `Cara - Gatsby Theme from @lekoarts`,
+    // Will be used to generate absolute URLs for og:image etc.
+    siteUrl: `https://cara.lekoarts.de`,
+    // Used for SEO
+    siteDescription: `Playful and Colorful One-Page portfolio featuring Parallax effects and animations`,
+    // Will be set on the <html /> tag
+    siteLanguage: `en`,
+    // Used for og:image and must be placed inside the `static` folder
+    siteImage: `/banner.jpg`,
+    // Twitter Handle
+    author: `@lekoarts_de`,
+  },
+};
+```
 
 ## 📝 Using and modifying this starter
 
