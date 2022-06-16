@@ -18,7 +18,7 @@
     <img alt="Website" src="https://img.shields.io/badge/-website-blue">
   </a>
   <a href="https://twitter.com/estevamSouza199?t=2jTVetjPwI9Nz3CLY3VmBg&s=08">
-    <img src="https://img.shields.io/twitter/follow/lekoarts_de.svg?label=Follow%20@lekoarts_de" alt="Follow @estevamSouza199" />
+    <img src="https://img.shields.io/twitter/follow/lekoarts_de.svg?label=Follow%20@estevamSouza199" alt="Follow @estevamSouza199" />
   </a>
 </p>
 
