@@ -14,17 +14,14 @@
   <a href="https://github.com/sponsors/LekoArts">
     <img alt="GitHub Sponsors" src="https://img.shields.io/github/sponsors/LekoArts">
   </a>
-  <a href="https://estevam.vercel.app">
+  <a href="https://estevam.gatsbyjs.io/">
     <img alt="Website" src="https://img.shields.io/badge/-website-blue">
-  </a>
-  <a href="https://twitter.com/estevamSouza199?t=2jTVetjPwI9Nz3CLY3VmBg&s=08">
-    <img src="https://img.shields.io/twitter/follow/lekoarts_de.svg?label=Follow%20@estevamSouza199" alt="Follow @estevamSouza199" />
   </a>
 </p>
 
 Playful and Colorful One-Page portfolio featuring Parallax effects and animations. Using the Gatsby Theme [`@lekoarts/gatsby-theme-cara`](https://github.com/LekoArts/gatsby-themes/tree/main/themes/gatsby-theme-cara).
 
-[**Demo Website**](https://estevam.vercel.app)
+[**Demo Website**](https://estevam.gatsbyjs.io/)
 
 <!-- Also be sure to check out other [Free & Open Source Gatsby Themes](https://themes.lekoarts.de) and my [Personal Website](https://www.lekoarts.de?utm_source=cara&utm_medium=Starter). -->
 
