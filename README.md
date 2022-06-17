@@ -53,11 +53,7 @@ Your site is now running at `http://localhost:8000`!
 
 If you want to learn more about how you can use a Gatsby starter that is configured with a Gatsby theme, you can check out this [shorter](https://www.gatsbyjs.com/docs/how-to/plugins-and-themes/using-a-gatsby-theme/) or [longer](https://www.gatsbyjs.com/tutorial/using-a-theme/) tutorial. The tutorials don't exactly apply to this starter however the concepts are the same.
 
-![Programmer Logo](video/.gif)
-
-<video width="320" height="240" controls>
-  <source src="/video/GatsbyPortfolio.mov" type="GatsbyPortfolio/mp4">
-</video>
+![Programmer Logo](gastby.gif)
 
 ## Usage
 
